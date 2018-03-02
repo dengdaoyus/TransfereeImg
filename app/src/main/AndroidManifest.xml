@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ddy.transferimage">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".SysApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.glide.TouchMoveActivity"
+            android:label="可移动图片/不可见图片测试"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.glide.GlideNoThumActivity"
+            android:label="Glide 测试（没有缩略图）"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.universal.UniversalNormalActivity"
+            android:label="UniversalLoader 测试(有缩略图)"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.universal.UniversalNoThumActivity"
+            android:label="UniversalLoader 测试(没缩略图)"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.universal.UniversalLocalActivity"
+            android:label="UniversalLoader 测试(本地图片)"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.glide.GlideLocalActivity"
+            android:label="GlideLoader 测试(本地图片)"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

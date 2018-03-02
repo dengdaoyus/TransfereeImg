@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.transferee.glideloader">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <meta-data
+            android:name="com.transferee.glideloader.support.OkHttpProgressGlideModule"
+            android:value="GlideModule" />
+
+    </application>
+
+</manifest>
