@@ -4,9 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GlideLoader/GlideLoader.iml" filepath="$PROJECT_DIR$/GlideLoader/GlideLoader.iml" />
       <module fileurl="file://$PROJECT_DIR$/Transferee/Transferee.iml" filepath="$PROJECT_DIR$/Transferee/Transferee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TransfereeImg.iml" filepath="$PROJECT_DIR$/TransfereeImg.iml" />
       <module fileurl="file://$PROJECT_DIR$/UniversalLoader/UniversalLoader.iml" filepath="$PROJECT_DIR$/UniversalLoader/UniversalLoader.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/transferee-master.iml" filepath="$PROJECT_DIR$/transferee-master.iml" />
     </modules>
   </component>
 </project>
