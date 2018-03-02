@@ -9,9 +9,9 @@ transferee 支持两种模式：
 如有任何问题可以提 Issues
 
 # Preview
-<img src="preview/transferee_1.gif" />
-<img src="preview/transferee_2.gif" />
-<img src="preview/transferee_3.gif" />
+<img src="preview/transferee1.gif" />
+<img src="preview/transferee2.gif" />
+
 
 # Usage
 
@@ -88,18 +88,6 @@ transferee.apply(config).show();
   - 为 transferee 组件添加背景色自定义功能
   - 为 transferee 组件添加长按监听器，并添加了长按保存图片到相册的示例代码
   - 更新了部分示例代码中失效的图片地址
-
-+ v1.0.0
-  - 将项目托管到 jitpack。目前可以使用添加 dependencies 的方式，导入 transferee 组件
-  
-+ v1.1.0
-  - 修复 transferee 单例为普通实例，解决多个界面公用 transferee 单例时的异常问题
-
-+ v2.0.0
-  - 针对之前版本的使用复杂考虑，添加了直接绑定 ListView，GridView，RecyclerView 即可使用，不再需要人肉传入 originImageList
-  - 针对各大厂家的图片加载器，实在是没有精力一一兼容，并且由于 transferee 需要判断图片是否已经加载过这一 api，而不是每个厂家的图片加载都有这一 api，所以现在默认使用 niversalUImageLoader 作为 transferee 内置图片加载器
-  - 修复有超出屏幕外图片情境下 transferee 崩溃的情景
-  - 修复 Issues 中各位同学反馈的bug
 
 # Todo
 + [x] 支持高清大图和长图浏览
